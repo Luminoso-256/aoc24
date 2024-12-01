@@ -31,6 +31,9 @@ func main() {
 			if r == e {
 				count++
 			}
+			if r > e {
+				break //the lists are sorted
+			}
 		}
 		simScore += count * e
 	}
